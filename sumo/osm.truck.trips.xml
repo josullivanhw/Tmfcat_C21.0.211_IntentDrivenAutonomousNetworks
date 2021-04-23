@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/12/21 09:04:59 by Eclipse SUMO duarouter Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm.truck.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.truck.trips.xml.tmp"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="truck_truck" vClass="truck"/>
+    <trip id="truck0" type="truck_truck" depart="0.00" departLane="best" from="244083793#0" to="-128223756#3"/>
+    <trip id="truck1" type="truck_truck" depart="0.05" departLane="best" from="-33857142#0" to="-35957659#5"/>
+    <trip id="truck2" type="truck_truck" depart="0.09" departLane="best" departSpeed="max" from="29179674" to="312760676"/>
+    <trip id="truck3" type="truck_truck" depart="0.14" departLane="best" from="475825800" to="-23951767#10"/>
+    <trip id="truck4" type="truck_truck" depart="0.18" departLane="best" departSpeed="max" from="-55848017#9" to="-144820344#2"/>
+    <trip id="truck5" type="truck_truck" depart="0.23" departLane="best" departSpeed="max" from="-276081314#3" to="228069842"/>
+    <trip id="truck6" type="truck_truck" depart="0.27" departLane="best" departSpeed="max" from="-121287563" to="-323015641#1"/>
+    <trip id="truck7" type="truck_truck" depart="0.32" departLane="best" from="24620919" to="24449618#0"/>
+    <trip id="truck8" type="truck_truck" depart="0.36" departLane="best" from="-27751488#2" to="25610172#2"/>
+    <trip id="truck9" type="truck_truck" depart="0.41" departLane="best" departSpeed="max" from="35595745" to="-111763887"/>
+    <trip id="truck10" type="truck_truck" depart="0.45" departLane="best" from="35468039#0" to="32239220"/>
+    
+</routes>
